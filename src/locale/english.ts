@@ -200,8 +200,6 @@ const english: Record<string, string> = {
   _sidebarTitle: 'Sidebar title',
   _defTitle4: 'Default website title, recommended to be within 4 words',
   _inputAuthCode: 'Please enter the authorization code',
-  _payTip:
-    'Becoming a VIP allows you to enjoy the full site functionality, and you need to pay ¥99 as a contribution to the stable operation of this site. Thank you for your support',
   _waitHandle: 'Waiting for the stationmaster to handle',
   _collect: 'Get',
   _confirmCollect: 'Are you sure?',
@@ -224,6 +222,9 @@ const english: Record<string, string> = {
   _associatedLabels: 'Labels',
   _menuCollapse: 'Menu Collapse',
   _retro: 'Retro',
+  _accessTimeout: 'Access timeout (seconds)',
+  _accessTimeoutTip:
+    'Crawl the website for a specified number of seconds with no response, skip',
 }
 
 export default english
